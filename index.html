@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scaleble=no">	
+	<title>Practica III</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/practica3.css">
+</head>
+<body>
+	<section class="Portada background" id="home">
+		<header>
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="#contexto">Contexto</a>		
+					</li>
+					<li>
+						<a href="#footer">Formulario</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="Perfil">
+			<h1>Bienvenido a los Formularios usando JS</h1>
+			<h2>Manejo adecuado de formularios</h2>
+		</div>
+		<div class="wimore">
+			<img src="../icons/arrow.png" alt="">
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="title">
+			<h3>Para elegir el programa a ejecutar de click en mi botón</h3>
+		</div>
+		<div>
+			<button class="boton" id="empezarbuton">Empezar</button>
+		</div>
+		<form action="" class="formulario" id="form" onSubmit="this.reset()">
+			<div class="container">
+				<div class="item col1" id="oculto1" style="display: block;">
+					<h3>Buscar String clave en String Fuente</h3>
+					<label for="textarea">Párrafo</label>
+					<textarea name="parrafo" id="parrafo" cols="30" rows="10" style="display: flex; margin: 12px 40px 12px 0px; width: 565px; height: 94px;"></textarea>
+					<label for="text">Buscar String</label>
+					<input type="text" class="string" id="buscarString">
+					<input type="submit" value="Enviar" class="button" onclick="BuscarString()">
+						<iframe class="iframe" id="frame1" src="about:blank" width="400" height="50" frameborder="0"></iframe>
+					<iframe id="res1" style="z-index: 2; background: white; display: none;" src="about:blank" frameborder="" width="500" height="50"></iframe>
+				</div>
+				<div class="item col2" id="oculto2" style="display: block;">
+					<h3>Verificar Correo electronico</h3>
+					<label for="email">E-mail</label>
+					<input placeholder="example_sin@gmail.com" type="email" id="Correo" class="email" onclick="verificar();"> 
+					<span id="valido"></span>
+					<!-- <input type="submit" value="Enviar" class="button op"> -->
+				</div>
+				<div class="item col3" id="oculto3" style="display: flex;">
+					<h3>Indentificar si una palabra es un Palindromo</h3>
+					<label for="text">Ingresar Oración</label>
+					<textarea name="parrafo" id="Palindromo" cols="10" rows="10"></textarea>
+					<input type="submit" value="Enviar" class="button" onclick="palindromo()">
+					<iframe class="iframe" id="res3" style="z-index: 2; background: white; display: none;" src="about:blank" frameborder="" width="500" height="80"></iframe>
+				</div>
+				<div class="item col4" id="oculto4" style="display: flex;">
+					<h3>Leer una frase motivadora (string) por teclado e implementar las siguientes funciones:</h3>
+					<p>a. Imprimir la primera mitad de los caracteres de la cadena.
+					b. Imprimir el último carácter.
+					c. Imprimirlo en forma inversa
+					d. Imprimir cada carácter del string separado con un punto
+					e. Imprimir la cantidad de vocales ‘a’ almacenadas</p>
+					<label for="textarea">Ingresar oracion</label>
+					<textarea name="parrafo" id="str" cols="10" rows="10"></textarea>
+					<input type="submit" value="Enviar" class="button" onclick="stringMethods()">
+					<iframe class="iframe" id="res4" style="z-index: 2; background: white; display: none;" src="about:blank" frameborder="" width="500" height="80"></iframe>
+				</div>
+				<div class="item col5" id="oculto5" style="display: block;">
+					<h3>leer una oración por teclado, luego mostrar cada
+						palabra ingresada en una línea distinta, pero ordenadas de forma alfabética</h3>
+					<p>
+					<h4>Ejemplo: "La mañana está fría".</h4>
+					<h4>Debe aparecer:</h4>
+					<h4>La</h4>
+					<h4>está</h4>
+					<h4>fría.</h4>
+					<h4>mañana</h4>
+					</p>
+					<label for="text">Ingresar Oración</label>
+					<textarea class="area" name="parrafo" id="Stringline" cols="10" rows="10"></textarea>
+					<input type="submit" value="Enviar" class="button" onclick="OrdenarLine()">
+					<iframe class="iframe" id="res5" style="z-index: 2; background: white; display: none; margin: 18px 0px 0px 15px;" src="about:blank" frameborder="" width="500" height="80"></iframe>
+				</div>
+				<div class="item col6" id="oculto6" style="display: flex;">
+					<h2>Registro de Usuario</h2>
+					<label for="text">Nombre</label>
+					<input type="text" id="textregistro" name="text" class="email">
+					<label for="password">Password</label>
+					<input type="password" class="email" id="contraseña">
+					<input type="submit" value="Enviar" class="button" onclick="pass()">
+					<h3 class="nota">Notas: El password debe tener al menos 8 caracteres, al menos un número y 
+					al menos una letra, mostrar en una ventana de alerta en caso contrario.</h3>
+					<iframe class="iframe" id="res6" style="z-index: 2; background: white; display: none; margin: 18px 0px 0px 15px;" src="about:blank" frameborder="" width="500" height="80"></iframe>
+				</div>
+				<div class="item col7" id="oculto7" style="display: block;">
+					<ul>
+						<li><a href="">Cambiar Color</a>
+							<ul>
+								<li><a id="color1" href="#footer">Color 1</a></li>
+								<li><a id="color2" href="#footer">Color 2</a></li>
+								<li><a id="color3" href="#footer">Color 3</a></li>
+								<li><a id="color4" href="#footer">Color 4</a></li>
+								<li><a id="color5" href="#footer">Color 5</a></li>
+								<li><a id="color6" href="#footer">Color 6</a></li>
+							</ul>
+						</li>
+					</ul>
+					<h3 class="nota">Crea un menú desplegable que muestre al menos 5 colores de fondo, distintos a Rojo,
+					Verde o Azul. Al seleccionarse debe cambiar automáticamente el color de fondo de la
+					página y debe mostrarse en la página el valor RGB del color utilizado y la fecha y hora de
+					cambio</h3>
+					<iframe class="iframe" id="res7" style="z-index: 2; background: white; display: none;" src="about:blank" frameborder="" width="500" height="50"></iframe>
+				</div>
+				<div class="item col8" id="oculto8" style="display: block;">
+					<p class="date">Utiliza el tipo de entrada para fechas de HTML5 para mostrar dos controles donde se
+					pueda seleccionar una “fecha inicial” y una “fecha final” y como resultado se muestre el
+					número de años y meses transcurridos.</p>
+					<label for="date" class="dato">Fecha Inicial</label>
+					<input type="date" id="fechainicial" class="date" value="yyyy,mm,dd">
+					<label for="date" class="dato">Fecha Final</label>
+					<input type="date" id="fechafinal" class="date" value="yyyy,mm,dd">
+					<button class="boton" id="fecha" onclick="calcularDate()">Calcular Fecha</button>
+					<iframe class="iframe" id="res8" style="z-index: 2; background: white; display: none;" src="about:blank" frameborder="" width="500" height="100"></iframe>
+				</div>
+			</div>
+		</form>
+	</footer>
+	<script src="practica3.js"></script>
+	<script src="http://momentjs.com/downloads/moment.min.js"></script>
+</body>
+</html>

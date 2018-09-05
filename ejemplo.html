@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo botón - iframe<</title>
+	<script type="text/javascript">
+		function injectHTML(num)
+ 		{
+ 			//paso 1: se obtiene el objeto DOM asociado con el id del iframe.
+			var iframe = document.getElementById('test_iframe'+num);
+
+			var html_string = '<html><head></head><body><p >'+Date()+'</p></body></html>';
+
+ 			//paso 2: se obtiene el documento asociado con la etiqueta iframe
+ 			// la mayoría de los navegadores soportan "document", algunos
+ 			// "contentDocumet" y otros "contentWindow.document"
+ 			var iframedoc = iframe.document;
+
+ 			if (iframe.contentDocument)
+ 			iframedoc = iframe.contentDocument;
+ 			
+
+ 			//paso 3: se asigna el contenido correspondiente
+			if (iframedoc){
+ 			iframedoc.open();
+			iframedoc.writeln(html_string);
+			iframedoc.close();
+		}
+		else{
+ 			alert('No es posible insertar el contenido dinámicamente en el iframe.');
+ 		}
+
+ 		}
+
+	</script>
+</head>
+<body>
+	<h1>JavaScript con formularios</h1>
+ 	<iframe id="test_iframe1" src="about:blank" width=400 height=25 frameBorder="0"></iframe>
+ 	<br>
+ 		<button onClick="injectHTML(1)">Inject HTML</button>
+ 	<br><br> 
+ 	<iframe id="test_iframe2" src="about:blank" width=400 height=25 frameBorder="0"></iframe>
+ 	<br>
+ 	<button onClick="injectHTML(2)">Inject HTML</button>
+</body>
+</html>

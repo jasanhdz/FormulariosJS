@@ -322,10 +322,72 @@ function pass() {
       </html>`
       debugger
     })
+     $color1.addEventListener('touchstart', function(event) {
+      event.preventDefault();
+      document.body.style.backgroundColor= 'rgba(28, 95, 126)'
+      document.getElementById('home').style.background = 'rgba(28, 95, 126)'
+      debugger
+      document.getElementById('footer').style.background = 'rgba(28, 95, 126)'
+      $oculto1.style.background = 'rgba(28, 95, 126)'
+      $oculto2.style.background = 'rgba(28, 95, 126)'
+      $oculto3.style.background = 'rgba(28, 95, 126)'
+      $oculto4.style.background = 'rgba(28, 95, 126)'
+      $oculto5.style.background = 'rgba(28, 95, 126)'
+      $oculto6.style.background = 'rgba(28, 95, 126)'
+      $oculto7.style.background = 'rgba(28, 95, 126)'
+      $oculto8.style.background = 'rgba(28, 95, 126)'
+      document.getElementById('res7').style.display = 'block'
+      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      $res7.body.innerHTML = `
+      <html>
+        <head>
+        </head>
+        <body>
+          <p>
+            <h3 style="color: blue">El Color que Insertaste es: 'rgba(28, 95, 126)' </h3>
+          </p>
+          <p >
+            ${Date()}
+          </p>
+        </body>
+      </html>`
+      debugger
+    })
 
 // Cambiando Color 2
     const $color2 = document.getElementById('color2')
     $color2.addEventListener('click', function(event) {
+      event.preventDefault();
+      document.body.style.backgroundColor= 'rgba(51, 247, 164)'
+      document.getElementById('home').style.background = 'rgba(51, 247, 164)'
+      debugger
+      document.getElementById('footer').style.background = 'rgba(51, 247, 164)'
+      $oculto1.style.background = 'rgba(51, 247, 164)'
+      $oculto2.style.background = 'rgba(51, 247, 164)'
+      $oculto3.style.background = 'rgba(51, 247, 164)'
+      $oculto4.style.background = 'rgba(51, 247, 164)'
+      $oculto5.style.background = 'rgba(51, 247, 164)'
+      $oculto6.style.background = 'rgba(51, 247, 164)'
+      $oculto7.style.background = 'rgba(51, 247, 164)'
+      $oculto8.style.background = 'rgba(51, 247, 164)'
+      document.getElementById('res7').style.display = 'block'
+      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      $res7.body.innerHTML = `
+      <html>
+        <head>
+        </head>
+        <body>
+          <p>
+            <h3 style="color: blue">El Color que Insertaste es: 'rgba(51, 247, 164)' </h3>
+          </p>
+          <p >
+            ${Date()}
+          </p>
+        </body>
+      </html>`
+      debugger
+    })
+     $color2.addEventListener('touchstart', function(event) {
       event.preventDefault();
       document.body.style.backgroundColor= 'rgba(51, 247, 164)'
       document.getElementById('home').style.background = 'rgba(51, 247, 164)'
@@ -390,10 +452,72 @@ function pass() {
       </html>`
       debugger
     })
+    $color3.addEventListener('touchstart', function(event) {
+      event.preventDefault();
+      document.body.style.backgroundColor= 'rgba(249, 157, 65)'
+      document.getElementById('home').style.background = 'rgba(249, 157, 65)'
+      debugger
+      document.getElementById('footer').style.background = 'rgba(249, 157, 65)'
+      $oculto1.style.background = 'rgba(249, 157, 65)'
+      $oculto2.style.background = 'rgba(249, 157, 65)'
+      $oculto3.style.background = 'rgba(249, 157, 65)'
+      $oculto4.style.background = 'rgba(249, 157, 65)'
+      $oculto5.style.background = 'rgba(249, 157, 65)'
+      $oculto6.style.background = 'rgba(249, 157, 65)'
+      $oculto7.style.background = 'rgba(249, 157, 65)'
+      $oculto8.style.background = 'rgba(249, 157, 65)'
+      document.getElementById('res7').style.display = 'block'
+      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      $res7.body.innerHTML = `
+      <html>
+        <head>
+        </head>
+        <body>
+          <p>
+            <h3 style="color: rgba(249, 157, 65);">El Color que Insertaste es: '[rgba(249, 157, 65)]' </h3>
+          </p>
+          <p >
+            ${Date()}
+          </p>
+        </body>
+      </html>`
+      debugger
+    })
 
 // Cambiando Color 4
     const $color4 = document.getElementById('color4')
     $color4.addEventListener('click', function(event) {
+      event.preventDefault();
+      document.body.style.backgroundColor= 'rgba(255, 241, 226);'
+      document.getElementById('home').style.background = 'rgba(255, 241, 226)'
+      debugger
+      document.getElementById('footer').style.background = 'rgba(255, 241, 226)'
+      $oculto1.style.background = 'rgba(255, 241, 226)'
+      $oculto2.style.background = 'rgba(255, 241, 226)'
+      $oculto3.style.background = 'rgba(255, 241, 226)'
+      $oculto4.style.background = 'rgba(255, 241, 226)'
+      $oculto5.style.background = 'rgba(255, 241, 226)'
+      $oculto6.style.background = 'rgba(255, 241, 226)'
+      $oculto7.style.background = 'rgba(255, 241, 226)'
+      $oculto8.style.background = 'rgba(255, 241, 226)'
+      document.getElementById('res7').style.display = 'block'
+      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      $res7.body.innerHTML = `
+      <html>
+        <head>
+        </head>
+        <body>
+          <p>
+            <h3 style="color: blue;">El Color que Insertaste es:'[rgba(255, 241, 226)]'</h3>
+          </p>
+          <p >
+            ${Date()}
+          </p>
+        </body>
+      </html>`
+      debugger
+    })
+    $color4.addEventListener('touchstart', function(event) {
       event.preventDefault();
       document.body.style.backgroundColor= 'rgba(255, 241, 226);'
       document.getElementById('home').style.background = 'rgba(255, 241, 226)'
@@ -458,10 +582,72 @@ function pass() {
       </html>`
       debugger
     })
+    $color5.addEventListener('touchstart', function(event) {
+      event.preventDefault();
+      document.body.style.backgroundColor= 'rgb(90, 37, 37)'
+      document.getElementById('home').style.background = 'rgb(90, 37, 37)'
+      debugger
+      document.getElementById('footer').style.background = 'rgb(90, 37, 37)'
+      $oculto1.style.background = 'rgb(90, 37, 37)'
+      $oculto2.style.background = 'rgb(90, 37, 37)'
+      $oculto3.style.background = 'rgb(90, 37, 37)'
+      $oculto4.style.background = 'rgb(90, 37, 37)'
+      $oculto5.style.background = 'rgb(90, 37, 37)'
+      $oculto6.style.background = 'rgb(90, 37, 37)'
+      $oculto7.style.background = 'rgb(90, 37, 37)'
+      $oculto8.style.background = 'rgb(90, 37, 37)'
+      document.getElementById('res7').style.display = 'block'
+      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      $res7.body.innerHTML = `
+      <html>
+        <head>
+        </head>
+        <body>
+          <p>
+            <h3 style="color: rgb(90, 37, 37);">El Color que Insertaste es: '[rgb(90, 37, 37)]' </h3>
+          </p>
+          <p >
+            ${Date()}
+          </p>
+        </body>
+      </html>`
+      debugger
+    })
 
 // Cambiando Color 6
     const $color6 = document.getElementById('color6')
     $color6.addEventListener('click', function(event) {
+      event.preventDefault();
+      document.body.style.backgroundColor= 'rgba(242, 255, 14)'
+      document.getElementById('home').style.background = 'rgba(242, 255, 14)'
+      debugger
+      document.getElementById('footer').style.background = 'rgba(242, 255, 14)'
+      $oculto1.style.background = 'rgba(242, 255, 14)'
+      $oculto2.style.background = 'rgba(242, 255, 14)'
+      $oculto3.style.background = 'rgba(242, 255, 14)'
+      $oculto4.style.background = 'rgba(242, 255, 14)'
+      $oculto5.style.background = 'rgba(242, 255, 14)'
+      $oculto6.style.background = 'rgba(242, 255, 14)'
+      $oculto7.style.background = 'rgba(242, 255, 14)'
+      $oculto8.style.background = 'rgba(242, 255, 14)'
+      document.getElementById('res7').style.display = 'block'
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
+      $res7.body.innerHTML = `
+      <html>
+        <head>
+        </head>
+        <body>
+          <p>
+            <h3 style="color: rgba(242, 255, 14);">El Color que Insertaste es: '[rgba(242, 255, 14)]' </h3>
+          </p>
+          <p >
+            ${Date()}
+          </p>
+        </body>
+      </html>`
+      debugger
+    })
+    $color6.addEventListener('touchstart', function(event) {
       event.preventDefault();
       document.body.style.backgroundColor= 'rgba(242, 255, 14)'
       document.getElementById('home').style.background = 'rgba(242, 255, 14)'

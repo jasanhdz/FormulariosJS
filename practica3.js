@@ -306,7 +306,7 @@ function pass() {
       $oculto7.style.background = 'rgba(28, 95, 126)'
       $oculto8.style.background = 'rgba(28, 95, 126)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -337,7 +337,7 @@ function pass() {
       $oculto7.style.background = 'rgba(28, 95, 126)'
       $oculto8.style.background = 'rgba(28, 95, 126)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -371,7 +371,7 @@ function pass() {
       $oculto7.style.background = 'rgba(51, 247, 164)'
       $oculto8.style.background = 'rgba(51, 247, 164)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -402,7 +402,7 @@ function pass() {
       $oculto7.style.background = 'rgba(51, 247, 164)'
       $oculto8.style.background = 'rgba(51, 247, 164)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -436,7 +436,7 @@ function pass() {
       $oculto7.style.background = 'rgba(249, 157, 65)'
       $oculto8.style.background = 'rgba(249, 157, 65)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -467,7 +467,7 @@ function pass() {
       $oculto7.style.background = 'rgba(249, 157, 65)'
       $oculto8.style.background = 'rgba(249, 157, 65)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -501,7 +501,7 @@ function pass() {
       $oculto7.style.background = 'rgba(255, 241, 226)'
       $oculto8.style.background = 'rgba(255, 241, 226)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -532,7 +532,7 @@ function pass() {
       $oculto7.style.background = 'rgba(255, 241, 226)'
       $oculto8.style.background = 'rgba(255, 241, 226)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -566,7 +566,7 @@ function pass() {
       $oculto7.style.background = 'rgb(90, 37, 37)'
       $oculto8.style.background = 'rgb(90, 37, 37)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>
@@ -597,7 +597,7 @@ function pass() {
       $oculto7.style.background = 'rgb(90, 37, 37)'
       $oculto8.style.background = 'rgb(90, 37, 37)'
       document.getElementById('res7').style.display = 'block'
-      let $res7 = document.getElementById('res7').contentWindow.document || docuemnt.getElementById('res7').contentDocument
+      let $res7 = document.getElementById('res7').contentWindow.document || document.getElementById('res7').contentDocument
       $res7.body.innerHTML = `
       <html>
         <head>

@@ -1,6 +1,8 @@
+
 body{
 	margin: 0;
 	font-family: 'Allerta', sans-serif;
+	width: auto;
 }
 
 .Portada{
@@ -152,10 +154,6 @@ span {
     margin: 18px 0px 0px 15px;
 }
 
-.item.col2{
-	padding-left: 50px;
-}
-
 .item.col7 {
 	display: block;
 }
@@ -231,4 +229,52 @@ span {
 	.item.col5 {
 		display: flex !important;
 	} 
+}
+
+@media screen and (max-width: 350px) {
+	.Portada {
+		height: auto;
+		display: flex;
+    	height: 130px;
+    	width: auto;
+    	align-items: center;
+	}
+	.menu {
+		font-size: 20px;
+    	display: block;
+    	padding-top: 230px;
+	}
+
+	.footer {
+		padding-top: 350px;
+		padding-left: 10px;
+		text-align: center;
+	}
+	.Perfil {
+		display: inline-block;
+		margin-left: -150px;
+		margin-top: 533px;
+	}
+	h1 {
+		font-size: auto;
+	}
+	.menu li{
+		display: flex;
+    	margin-top: 0;
+    	margin-left: 0; 
+	}
+
+	.container {
+		display: block;
+		width: auto;
+		height: auto;
+	}
+
+	.item {
+		width: 260px;
+	}
+
+	.colormenu {
+	  display: flex;
+	}
 }
